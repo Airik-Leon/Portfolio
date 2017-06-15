@@ -1,0 +1,309 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Roboto');
+body, html{
+    height:100%; 
+    width: auto; 
+    margin:0 auto;
+    font-family:'Roboto', sans-serif; 
+}
+footer{
+    width:100%; 
+    height:400px; 
+    background-color:#2465a4; 
+}
+.title-container{
+    color:#f60648; 
+    margin:10px; 
+}
+.title-container h3{
+    color:#eeeeee; 
+    background-color: silver; 
+    height:40px; 
+    padding-top:10px;
+    padding-left: 10px; 
+}
+.nav{
+    display:inline-block; 
+    text-align:center; 
+    text-orientation:sideways-left; 
+    position:fixed; 
+    margin-left:10px;
+    margin-top:-20px;
+}
+.home {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    background-color: #f60648;
+    color: white;
+}
+.home:hover{
+    transform:scale(2,2);
+    transition-duration:2s; 
+    margin-left:100px;
+    cursor:pointer;
+}
+.home p{
+    padding-top:40px;
+}
+.Resume {
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    background-color: #f60648;
+    color:white; 
+}
+.Resume:hover{
+    transform:scale(2,2);
+    transition-duration:2s; 
+    margin-left:100px;
+    cursor:pointer;
+}
+.Resume p{
+    padding-top:40px; 
+}
+.projects {
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    background-color: #f60648;
+    color: white;
+    cursor:pointer;
+}
+.projects:hover{
+    transform:scale(2,2);
+    transition-duration:2s; 
+    margin-left:100px;
+}
+.projects p{
+    padding-top:40px;
+}
+.CV h2{
+    text-align:center; 
+}
+.CV {
+    border-top: solid 10px #2465a4;
+    border-bottom: solid 1px silver;
+
+    border-radius: 5px;
+    width: 50%;
+    height: auto;
+    background-size: contain;
+    margin-left: 16%;
+}
+.skills-box {
+    border-top: outset 10px #50874e;
+    border-radius: 5px;
+    float: left;
+    position: absolute;
+    top: 150px;
+    width: 20%;
+    height: 1000px;
+    background-size: contain;
+    margin-left: 70%;
+    text-align:center;
+}
+.projects-box {
+    border-top: solid 10px #ff6a00;
+    border-radius: 5px;
+    width: 50%;
+    height: 400px;
+    background-size: contain;
+    margin-left: 16%;
+    margin-top: 30px;
+}
+.social{
+    width:100%; 
+    height:300px; 
+    background-color:white;
+    text-align:center; 
+}
+.social li{
+    list-style:none; 
+    display:inline-block; 
+}
+
+
+
+
+/*Skills related*/
+.Csharp-skills{
+    background-color:silver; 
+    border-radius:13px; 
+    padding:3px;
+}
+.Csharp-skills div{
+    background-color:#47ff46; 
+    width:60%; 
+    height:20px; 
+    border-radius:10px;
+}
+.CPP-skills {
+    background-color: silver;
+    border-radius: 13px;
+    padding: 3px;
+}
+.CPP-skills div{
+    background-color:#47ff46; 
+    width:50%; 
+    height:20px; 
+    border-radius:10px;
+}
+.java-skills {
+    background-color: silver;
+    border-radius: 13px;
+    padding: 3px;
+}
+.java-skills div{
+        background-color:#47ff46; 
+    width:50%; 
+    height:20px; 
+    border-radius:10px;
+}
+.JS-skills {
+    background-color: silver;
+    border-radius: 13px;
+    padding: 3px;
+}
+.JS-skills div{
+    background-color: #47ff46;
+    width: 50%;
+    height: 20px;
+    border-radius: 10px;
+}
+.VB-skills {
+    background-color: silver;
+    border-radius: 13px;
+    padding: 3px;
+}
+.VB-skills div{
+    background-color:#47ff46; 
+    width:60%; 
+    height:20px; 
+    border-radius:10px;
+}
+.CL-skills {
+    background-color: silver;
+    border-radius: 13px;
+    padding: 3px;
+}
+.CL-skills div{
+    background-color:#47ff46; 
+    width:20%; 
+    height:20px; 
+    border-radius:10px;
+}
+.sql-skills {
+    background-color: silver;
+    border-radius: 13px;
+    padding: 3px;
+}
+.sql-skills div{
+    background-color:#f60648; 
+    width:50%;  
+    height:20px; 
+    border-radius:10px;
+}
+.mongo-skills {
+    background-color: silver;
+    border-radius: 13px;
+    padding: 3px;
+}
+.mongo-skills div{
+    background-color:#f60648; 
+    width:20%; 
+    height:20px; 
+    border-radius:10px;
+}
+.winForms {
+    background-color: silver;
+    border-radius: 13px;
+    padding: 3px;
+}
+.winForms div{
+    background-color:#2465a4; 
+    width:60%; 
+    height:20px; 
+    border-radius:10px;
+}
+.webForms {
+    background-color: silver;
+    border-radius: 13px;
+    padding: 3px;
+}
+.webForms div{
+    background-color:#2465a4; 
+    width:70%; 
+    height:20px; 
+    border-radius:10px;
+}
+.netMVC {
+    background-color: silver;
+    border-radius: 13px;
+    padding: 3px;
+}
+.netMVC div{
+    background-color:#2465a4; 
+    width:50%; 
+    height:20px; 
+    border-radius:10px;
+}
+.webAPI {
+    background-color: silver;
+    border-radius: 13px;
+    padding: 3px;
+}
+.webAPI div{
+    background-color:#2465a4; 
+    width:30%; 
+    height:20px; 
+    border-radius:10px;
+}
+.angular {
+    background-color: silver;
+    border-radius: 13px;
+    padding: 3px;
+}
+.angular div{
+    background-color:#2465a4; 
+    width:30%; 
+    height:20px; 
+    border-radius:10px;
+}
+.windowsOS {
+    background-color: silver;
+    border-radius: 13px;
+    padding: 3px;
+}
+.windowsOS div{
+    background-color:#ff6a00; 
+    width:60%; 
+    height:20px; 
+    border-radius:10px;
+}
+.LinuxOS {
+    background-color: silver;
+    border-radius: 13px;
+    padding: 3px;
+}
+    .LinuxOS div {
+        background-color: #ff6a00;
+        width: 40%;
+        height: 20px;
+        border-radius: 10px;
+    }
+/*End Skills*/
+/*social Meida Btns*/
+.icon {
+    width: 100px;
+    height: 100px;
+    background-color: #2465a4;
+    border-radius: 10px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    list-style: none;
+}
+.icon:hover{
+    transition-duration:2s;
+    transform:rotate(360deg);
+}
