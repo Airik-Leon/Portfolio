@@ -1,3 +1,16 @@
 ﻿app.controller('SkillsController', ['$scope', function ($scope) {
-    $scope.skills = ["C#", "C++", "Java", "JavaScript", "Visual Basic", "Common Lisp", "SQL", "NoSQL", "Windows Forms", "webForms", ".NetMVC", ".Net Web API", "AngularJS", "Windows", "Linux"]
+    $scope.skills = [
+        {
+            name: "C#",
+            class: "Csharp"
+        },
+        {
+            name: "C++",
+            class: "CPP"
+        },
+        {
+            name: "Java",
+            class: "java"
+        }
+        , "JavaScript", "Visual Basic", "Common Lisp", "SQL", "NoSQL", "Windows Forms", "webForms", ".NetMVC", ".Net Web API", "AngularJS", "Windows", "Linux"]
 }]); 

@@ -36,6 +36,10 @@ footer{
     background-color: #f60648;
     color: white;
 }
+.home a:visited{
+    color:white; 
+    text-decoration:none; 
+}
 .home:hover{
     transform:scale(2,2);
     transition-duration:2s; 
@@ -50,6 +54,11 @@ footer{
     width: 100px;
     height: 100px;
     background-color: #f60648;
+    color:white; 
+    text-decoration:none; 
+}
+.Resume a:visited{
+    text-decoration:none; 
     color:white; 
 }
 .Resume:hover{
@@ -68,6 +77,11 @@ footer{
     background-color: #f60648;
     color: white;
     cursor:pointer;
+    text-decoration: none; 
+}
+.projects a:visited{
+    text-decoration:none; 
+    color:white; 
 }
 .projects:hover{
     transform:scale(2,2);
