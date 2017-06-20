@@ -1,9 +1,9 @@
 ﻿@{
     Layout = "~/Views/Shared/_Layout.cshtml"; 
-    ViewBag.Title = "Home Page";
+    ViewBag.Title = "Airik Leon - Resume";
 }
 
-<div ng-controller="MainController">
+<div>
     <div class="title-container">
         <h1>{{name | uppercase}}</h1>
         <h3>{{title}}</h3>
@@ -11,13 +11,13 @@
 </div>
 <div class="nav">
     <div class="home">
-        <a href="~/Views/Home/Index.cshtml"><p>Home</p></a>
+        <a><p>@Html.ActionLink("Home", "Index")</p></a>
     </div>
     <div class="Resume">
     <a href="~/Content/Resume/Airik_Leon_Resume.pdf"><p>Resume</p></a>
          </div>
     <div class="projects">
-         <a ><p>Projects</p></a>
+         <a><p>Projects</p></a>
     </div>
 </div>
 <div class="CV">
@@ -52,76 +52,15 @@
     </ul>
 </div>
 <div class="skills-box">
-    <h2>Programming Languages</h2>
-    <div class="Csharp-skills">
-        <div></div>
+    <h2>Programming Language</h2>
+    <div ng-repeat="app in apps">
+        <app-info info="app"></app-info>
     </div>
-    <label>C#</label>
-    <div class="CPP-skills">
-        <div></div>
-    </div>
-    <label>C++</label>
-    <div class="java-skills">
-        <div></div>
-    </div>
-    <label>Java</label>
-    <div class="JS-skills">
-        <div></div>
-    </div>
-    <label>JavaScript</label>
-    <div class="VB-skills">
-        <div></div>
-    </div>
-    <label>Visual Basic</label>
-    <div class="CL-skills">
-        <div></div>
-    </div>
-    <label>Common LISP</label>
-
-    <h2>DataBases</h2>
-    <div class="sql-skills">
-        <div></div>
-    </div>
-    <label>SQL</label>
-    <div class="mongo-skills">
-        <div></div>
-    </div>
-    <label>NoSQL</label>
-    <h2>Dev Tools</h2>
-    <div class="winForms">
-        <div></div>
-    </div>
-    <label>Windows Forms</label>
-    <div class="webForms">
-        <div></div>
-    </div>
-    <label>Web Forms</label>
-    <div class="netMVC">
-        <div></div>
-    </div>
-    <label>.Net MVC</label>
-    <div class="webAPI">
-        <div></div>
-    </div>
-    <label>.Net Web API</label>
-    <div class="angular">
-        <div></div>
-    </div>
-    <label>AngularJS</label>
-    <h2>Operating Systems</h2>
-    <div class="windowsOS">
-        <div></div>
-    </div>
-    <label>Windows</label>
-    <div class="LinuxOS">
-        <div></div>
-    </div>
-    <label>Linux</label> 
 </div>
 <div class="projects-box">
     <h2>Projects</h2>
     <ul>
-        <li>BreakerBall</li>
+        <li>@Html.ActionLink("Breaker Ball", "BreakerBall")</li>
     </ul>
 </div>
 

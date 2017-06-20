@@ -12,5 +12,9 @@ namespace WebUI.Controllers
         {
             return View();
         }
+        public ActionResult BreakerBall()
+        {
+            return View(); 
+        }
     }
 }

@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title</title>
     @Styles.Render("~/Content/css")
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.1/angular.min.js"></script>
+    <script src="~/Scripts/angular.min.js"></script>
+    <script src="~/Scripts/angular.min.js"></script>
 </head>
-<body ng-app="app">
+<body ng-app="app" ng-controller="MainController">
 
         @RenderBody()
     <footer>
@@ -17,7 +18,6 @@
     <script src="~/Scripts/Front/app.js"></script>
     <!--Controllers-->
     <script src="~/Scripts/Front/Controllers/MainController.js"></script>
-    <script src="~/Scripts/Front/Controllers/SkillsController.js"></script>
     <!--Directives-->
     <script src="~/Scripts/Front/Directives/Skills-info.js"></script>
 </body>
