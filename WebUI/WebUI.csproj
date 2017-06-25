@@ -230,10 +230,10 @@
     <Folder Include="Views\Task\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Tasks\Index.cshtml" />
+    <Content Include="Views\Home\BreakerBall.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Home\BreakerBall.cshtml" />
+    <None Include="Properties\PublishProfiles\WebUI20170624074028 - Web Deploy.pubxml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
