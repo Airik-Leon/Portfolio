@@ -219,9 +219,6 @@
     <Content Include="Content\style.stylus" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\Resume\Airik_Leon_Resume.pdf" />
-  </ItemGroup>
-  <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
@@ -233,6 +230,7 @@
     <Content Include="Views\Home\BreakerBall.cshtml" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Resume\Airik_Leon_Resume.pdf" />
     <None Include="Properties\PublishProfiles\WebUI20170624074028 - Web Deploy.pubxml" />
   </ItemGroup>
   <PropertyGroup>
