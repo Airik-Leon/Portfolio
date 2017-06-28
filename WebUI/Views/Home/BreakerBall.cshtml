@@ -8,7 +8,7 @@
     <label style="margin: 0 auto;margin-top:10px">BreakerBall</label>
 </div>
 <div style="margin: 0px auto; text-align:center; width: 480px; height: 320px; margin-bottom:20px;">
-    <canvas id="breakerCanvas" width="480" height="320" style="border:solid 5px #0094ff; border-radius:10px"></canvas>
+    <canvas id="breakerCanvas" width="480" height="320" ></canvas>
 </div>
 
 <script>
@@ -79,7 +79,7 @@
         function drawPaddle() {
             ctx.beginPath();
             ctx.rect(paddleX, canvas.height -paddleHeight, paddleWidth, paddleHeight);
-            ctx.fillStyle = "#0095DD";
+            ctx.fillStyle = "#000000";
             ctx.fill(0);
             ctx.closePath();
         }

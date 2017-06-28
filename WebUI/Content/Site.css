@@ -49,12 +49,18 @@ footer{
 .home p{
     padding-top:40px;
 }
+.home a{
+    text-decoration:none; 
+}
 .Resume {
     border-radius: 100px;
     width: 100px;
     height: 100px;
     background-color: #f60648;
     color:white; 
+    text-decoration:none; 
+}
+.Resume a{
     text-decoration:none; 
 }
 .Resume a:visited{
